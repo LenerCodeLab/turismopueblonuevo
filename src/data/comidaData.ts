@@ -9,7 +9,7 @@ export interface Attraction {
   difficulty: string;
 }
 import carapulcra from "../assets/images/CARAPULCRA CON SOPASECA.webp";
-import chupe from "../assets/images/CHUPE DE PALLARES VERDES.webp";
+import chupe from "../assets/images/CHUPEDEPALLARESVERDES.webp";
 import ensaladaGarbanzos from "../assets/images/ENSALADA DE GARBANZOS.webp";
 import ensaladaPallares from "../assets/images/ENSALADA DE PALLARES.webp";
 import picantePallares from "../assets/images/PICANTE DE PALLARES VERDES.webp";

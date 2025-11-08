@@ -10,7 +10,7 @@ import huacachinaSeca from "../assets/images/huacachina seca.webp";
 import iglesiaEspinos from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 2.webp";
 import casonaEspinos from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
 import iglesiaYajasi from "../assets/images/IGLESIA DE YAJASI.webp";
-import cruzYajasi from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS CRUZ.webp";
+import cruzYajasi from "../assets/images/CRUZDEYAJASI.webp";
 import santisimoJuliana from "../assets/images/CRUZ DE PONGO GRANDE.webp";
 import achiranaInca from "../assets/images/LA ACHIRANA DEL INCA.webp";
 import cruzChibillona from "../assets/images/CRUZ DE LA CHIBILLONA.webp";
@@ -34,7 +34,7 @@ const attractions: Attraction[] = [
     name: "Plaza de Armas de Pueblo Nuevo",
     description: "Joya arquitectónica del distrito",
     details:
-      "Esta plaza se caracteriza es un lugarapasible para despejarse del bullisio de laciudad, donde cuenta con 3 tachos de basura para la clasificacion de los desechos, plasticos y una pileta ornamental, en los ultimos años la plaza ha pasado por muchas remodelaciones",
+      "Esta plaza se caracteriza es un lugar apasible para despejarse del bullisio de laciudad, donde cuenta con 3 tachos de basura para la clasificacion de los desechos, plasticos y una pileta ornamental, en los ultimos años la plaza ha pasado por muchas remodelaciones",
     image: puebloNuevo,
     type: "Histórico-Religioso",
     bestTime: "Durante festividades",
