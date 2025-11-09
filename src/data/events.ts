@@ -7,6 +7,7 @@ import cruzConuca from "../assets/images/CRUZ DE CONUCA.webp";
 import cruzUchuyas from "../assets/images/CRUZ DE LOS UCHUYA.webp";
 import cruzParinaGrande from "../assets/images/CRUZ DE PARIÑA GRANDE 2.webp";
 import cruzYajasi from "../assets/images/CRUZDEYAJASI.webp";
+import pastorcillos from "../assets/images/pastorcillos.webp";
 // import cruzJuliana from "../assets/images/";
 import cruzPongoGrande from "../assets/images/CRUZ DE PONGO GRANDE.webp";
 import cruzCallejonEspinos from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
@@ -24,7 +25,7 @@ import pascuas from "../assets/images/pascuas.webp";
 import sanAntonioPadua from "../assets/images/sanantoniopadua.webp";
 import sanMartinDePorras from "../assets/images/sanmartindeporras.webp";
 import santaRosaDeLima from "../assets/images/santarosadelima.webp";
-import semanaSanta from "../assets/images/semanasanta.webp";
+import semanaSanta from "../assets/images/semanasanta2.webp";
 import señorDeLaAgonia from "../assets/images/señordelaagonia.webp";
 import trabajoMunicipal from "../assets/images/trabajormunicipal.webp";
 import vendimia from "../assets/images/vendimia.webp";
@@ -43,7 +44,7 @@ export const events = [
     month: 1,
     title: "Danza de los Pastorcillos",
     color: "cyan",
-    image: defaultImage,
+    image: pastorcillos,
   },
   {
     day: "13",
@@ -180,7 +181,7 @@ export const events = [
     month: 8,
     title: "Festividad a la Santísima Virgen del Carmen C.P. Pariña Grande",
     color: "yellow",
-    image: virgendelcarmen,
+    image: virgenDelCarmenFest,
   },
   {
     day: "30",
