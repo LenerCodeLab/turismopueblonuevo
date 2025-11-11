@@ -1,6 +1,6 @@
 import aniversariopueblonuevo from "../assets/images/ANIVERSARIO PUEBLO NUEVO.webp";
 import cruzChulpaca from "../assets/images/CHULPACA.webp";
-import cruzTacaraca from "../assets/images/tacaraca.webp";
+import cruzTacaraca from "../assets/images/CRUZ DE TACARACA.webp";
 import cruzChaypes from "../assets/images/CRUZ DE CHAIPE.webp";
 import cruzCespedes from "../assets/images/CRUZDELOSCESPEDES.webp";
 import cruzConuca from "../assets/images/CRUZ DE CONUCA.webp";
@@ -84,91 +84,91 @@ export const events = [
   },
 
   {
-    day: "01",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Chulpaca",
     color: "pink",
     image: cruzChulpaca,
   },
   {
-    day: "02",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Tacaraca",
     color: "blue",
     image: cruzTacaraca,
   },
   {
-    day: "03",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Chaypes",
     color: "yellow",
     image: cruzChaypes,
   },
   {
-    day: "04",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Los Céspedes",
     color: "teal",
     image: cruzCespedes,
   },
   {
-    day: "05",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Conuca",
     color: "pink",
     image: cruzConuca,
   },
   {
-    day: "06",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Los Uchuyas",
     color: "cyan",
     image: cruzUchuyas,
   },
   {
-    day: "07",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Pariña Grande",
     color: "orange",
     image: cruzParinaGrande,
   },
   {
-    day: "08",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Yajasi",
     color: "yellow",
     image: cruzYajasi,
   },
   {
-    day: "09",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Huacachina Seca",
     color: "red",
     image: cruzhuacachinaseca,
   },
   {
-    day: "10",
+    day: "01 - 30",
     month: 5,
     title: "Cruz la Juliana de Pongo Grande",
     color: "green",
     image: cruzPongoGrande,
   },
   {
-    day: "11",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Callejón de los Espinos",
     color: "pink",
     image: cruzCallejonEspinos,
   },
   {
-    day: "12",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de La Chibillona",
     color: "yellow",
     image: cruzChibillona,
   },
   {
-    day: "13",
+    day: "01 - 30",
     month: 5,
     title: "Cruz de Pueblo Nuevo",
     color: "teal",
