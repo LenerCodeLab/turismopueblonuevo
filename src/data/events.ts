@@ -31,6 +31,9 @@ import trabajoMunicipal from "../assets/images/trabajormunicipal.webp";
 import vendimia from "../assets/images/vendimia.webp";
 import virgenDelCarmenFest from "../assets/images/virgendelcarmen.webp";
 import yunza from "../assets/images/yunza.webp";
+import taki from "../assets/images/taki.jpg";
+import takiTour from "../assets/images/takiTour.jpg";
+import cancionCriolla from "../assets/images/cancionCriolla.jpg";
 export const events = [
   {
     day: "30",
@@ -43,6 +46,8 @@ export const events = [
     day: "31",
     month: 1,
     title: "Danza de los Pastorcillos",
+    descripcion:
+      "La Danza de Negritos se celebra del 23 al 29 de diciembre, y en Pueblo Nuevo el 31 de enero, como homenaje al Niño Jesús según el Evangelio de Lucas. Combina melodías andinas, villancicos españoles y zapateo de raíz africana. Su origen es incierto, pero sigue viva en el sur de Ica, bailada por mestizos, cholos y zambos. En cada región ha adoptado variantes, reflejando la identidad cultural local, como señalan Pulgar Vidal, Pavletich y Vizcaya en su Antología de Negritos (1973).",
     color: "cyan",
     image: pastorcillos,
   },
@@ -54,7 +59,15 @@ export const events = [
     image: carnaval,
   },
   { day: "14", month: 2, title: "Yunza", color: "red", image: yunza },
-  { day: "4", month: 3, title: "Vendimia", color: "blue", image: vendimia },
+  {
+    day: "4",
+    month: 3,
+    title: "Vendimia",
+    color: "blue",
+    image: vendimia,
+    descripcion:
+      "La Pisa de Uva es una tradición ancestral aún vigente, donde los racimos se colocan en grandes recipientes para extraer su jugo con fines vitivinícolas. Antiguamente, las personas pisaban las uvas al ritmo de música y cajón, pero hoy el proceso se ha tecnificado, conservándose esta práctica solo en ocasiones especiales como símbolo cultural. Los participantes suelen brindar con el jugo mezclado con pisco, celebrando la herencia vitivinícola de la región.",
+  },
   {
     day: "24",
     month: 4,
@@ -62,6 +75,14 @@ export const events = [
     color: "cyan",
     image: semanaSanta,
   },
+  {
+    day: "25 - 26 - 27 ",
+    month: 4,
+    title: "TAKI FESTITOUR PUEBLO NUEVO ICA",
+    color: "pink",
+    image: takiTour,
+  },
+
   {
     day: "01",
     month: 5,
@@ -118,7 +139,13 @@ export const events = [
     color: "yellow",
     image: cruzYajasi,
   },
-  { day: "09", month: 5, title: "Cruz de Huacachina Seca", color: "red", image:cruzhuacachinaseca, },
+  {
+    day: "09",
+    month: 5,
+    title: "Cruz de Huacachina Seca",
+    color: "red",
+    image: cruzhuacachinaseca,
+  },
   {
     day: "10",
     month: 5,
@@ -191,11 +218,25 @@ export const events = [
     image: santaRosaDeLima,
   },
   {
+    day: "23",
+    month: 9,
+    title: "FESTIVAL DE DANZAS ( FIESTA DE LA JUVENTUD )",
+    color: "pink",
+    image: taki,
+  },
+  {
     day: "31",
     month: 10,
     title: "Señor de la Agonía de Pueblo Nuevo",
     color: "red",
     image: señorDeLaAgonia,
+  },
+  {
+    day: "31",
+    month: 10,
+    title: "Dia de la Cacion Criolla",
+    color: "blue",
+    image: cancionCriolla,
   },
   {
     day: "06",
@@ -214,9 +255,16 @@ export const events = [
   {
     day: "09",
     month: 11,
-    title: "IKA Raymi",
+    title: "Escenificacion del IKA RAYMI - HATUN TINKU IKA INKA",
     color: "yellow",
     image: ikaraymi,
+  },
+  {
+    day:"16",
+    month:11,
+    title:"Festival de la Princesa Chumbillalla , Escenificacion de la Leyenda de la achirana del Inca ",
+    color:"red",
+    image:ikaraymi,
   },
   {
     day: "24",

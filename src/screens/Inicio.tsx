@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Hero } from "../components/Hero";
 import { MapPin, Mountain, Wine } from "lucide-react";
 import AttractionDetails from "../components/AttractionDetails";
@@ -6,18 +6,21 @@ import { LocationModal } from "../components/LocationModal";
 import Map from "../components/Mapa";
 import AttractionModal from "../components/AttractionModal";
 import { attractions, type Attraction } from "../data/attractions";
-import ComidaTipica from "../components/ComidaTipica";
 import circuito from "../assets/images/Circuito.webp";
+import circuito2 from "../assets/images/Circuito2.webp";
 export default function Inicio() {
-  
   const [selectedLocation, setSelectedLocation] = useState<any | null>(null);
-  
+
   const [selectedAttraction, setSelectedAttraction] =
     useState<Attraction | null>(null);
   const handleMarkerClick = (attraction: Attraction) => {
     console.log("Attraction clicked:", attraction);
     setSelectedAttraction(attraction);
   };
+   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 });
+  }, []); // Se ejecuta solo cuando el componente se monta (ideal para navegación)
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Hero />
@@ -141,7 +144,7 @@ export default function Inicio() {
         </div>
       </section>
       <AttractionDetails />
-      <ComidaTipica />
+
       <section id="map-section" className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           {/* <div className="text-center mb-12">
@@ -209,6 +212,11 @@ export default function Inicio() {
         <Map attractions={attractions} onMarkerClick={handleMarkerClick} />
         <img
           src={circuito}
+          alt="Mapa Circuito Turístico"
+          className="mt-8  min-w-full rounded-2xl shadow-lg  object-contain"
+        />
+        <img
+          src={circuito2}
           alt="Mapa Circuito Turístico"
           className="mt-8  min-w-full rounded-2xl shadow-lg  object-contain"
         />

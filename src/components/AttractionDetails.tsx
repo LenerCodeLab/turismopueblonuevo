@@ -53,7 +53,7 @@ const attractions: Attraction[] = [
   },
   {
     id: 3,
-    name: "Museo de Sitio Taky",
+    name: "Museo municipal (taky)",
     description: "Corazón social del distrito",
     details:
       "Por el CLIII aniversario de creación política del histórico distrito de Pueblo Nuevo, Ica, se inauguró la Sala de Exposición de la Cultura, encabezada por el alcalde Hebert Gonzáles Arcos; allí se conservan restos de las culturas Nasca e Ica, como cerámicas y textilerías.",
@@ -130,7 +130,7 @@ por los pobladores del lugar.
   },
   {
     id: 8,
-    name: "Sitio Arqueológico Huacachina Seca",
+    name: "Sitio arqueológico de soniche -Huacachina seca",
     description: "Auténtica experiencia comercial",
     details: `Es un recinto arqueológico y un lugar donde
 se puede explorar con toda la familia y es un

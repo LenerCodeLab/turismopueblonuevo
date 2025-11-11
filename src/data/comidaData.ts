@@ -45,7 +45,10 @@ import quequeFrejol from "../assets/images/Queque de Frejol.webp";
 import dulceGarbanzos from "../assets/images/Dulce de Garbanzos.webp";
 import piePecana from "../assets/images/Pie de Pecana.webp";
 import quituscos from "../assets/images/Quituscos.webp";
-
+import caldoGallina from "../assets/images/caldoGallina.jpg";
+import sopaCancate from "../assets/images/sopaCancate.jpg";
+import adoboRes from "../assets/images/adoboRes.jpg";
+import arrozPato from "../assets/images/arrozPato.jpg";
 export const comidaData: Attraction[] = [
   // ---------------- PLATOS TÍPICOS ----------------
   {
@@ -299,6 +302,50 @@ export const comidaData: Attraction[] = [
     difficulty: "Difícil",
   },
 
+  {
+    id: 36,
+    name: "Sopa de Cancate",
+    description: "Sopa tradicional iqueña",
+    details:
+      "Caldo preparado con carne de gallina, cordero o res, acompañado de mote y hierbas aromáticas.",
+    image: sopaCancate,
+    type: "Gastronómico",
+    bestTime: "Almuerzo",
+    difficulty: "Intermedio",
+  },
+  {
+    id: 37,
+    name: "Adobo de Res",
+    description: "Plato típico criollo",
+    details:
+      "Carne de res marinada en chicha de jora y especias, cocida lentamente hasta quedar suave y jugosa.",
+    image: adoboRes,
+    type: "Gastronómico",
+    bestTime: "Almuerzo",
+    difficulty: "Intermedio",
+  },
+  {
+    id: 38,
+    name: "Arroz con Pato con Carapulcra",
+    description: "Fusión regional con sabor intenso",
+    details:
+      "Pato cocido con culantro y cerveza negra servido junto a carapulcra preparada con papa seca y ajíes.",
+    image: arrozPato,
+    type: "Gastronómico",
+    bestTime: "Almuerzo",
+    difficulty: "Difícil",
+  },
+  {
+    id: 39,
+    name: "Caldo de Gallina",
+    description: "Sopa reconfortante tradicional",
+    details:
+      "Caldo elaborado con gallina criolla, tallarines y huevo, servido con cebolla china y limón.",
+    image: caldoGallina,
+    type: "Gastronómico",
+    bestTime: "Desayuno",
+    difficulty: "Fácil",
+  },
   // ---------------- BEBIDAS ----------------
 
   // ---------------- POSTRES ----------------

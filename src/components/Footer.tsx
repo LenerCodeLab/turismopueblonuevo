@@ -78,6 +78,35 @@ export default function Footer() {
                   <p className="text-base text-white/90">Pueblo Nuevo - Ica</p>
                 </div>
               </div>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="https://drive.google.com/file/d/1bP00Hd6Fnau3GZm18Vy71QnzmtYJIcyt/view?usp=sharing"
+                  className="bg-gradient-to-r  text-center from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 px-6 py-2.5 rounded-md font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full md:w-auto"
+                >
+                  Calendario Turístico
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1LtzgeIQuenXSPWDnZsmKWmA7okoQ2nML/view?usp=sharing "
+                  className="bg-gradient-to-r  text-center from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 px-6 py-2.5 rounded-md font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full md:w-auto"
+                  
+                >
+                  Guía Turística
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1FYz_e40oh3rcz4smT5brKWdQdpGzph73/view?usp=sharing"
+                  className="bg-gradient-to-r  text-center from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 px-6 py-2.5 rounded-md font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full md:w-auto"
+                  
+                >
+                  Circuito Turístico 1
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/164pHY7F0ujWpY92RR0HoY8PAacJ0gwkr/view?usp=sharing"
+                  className="bg-gradient-to-r  text-center from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 px-6 py-2.5 rounded-md font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 w-full md:w-auto"
+                  
+                >
+                  Circuito Turístico 2
+                </a>
+              </div>
             </div>
 
             <div className="flex justify-center md:justify-end">

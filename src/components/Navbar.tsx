@@ -1,4 +1,4 @@
-import {  Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/cropped-logo-muni-3-245x300.webp";
@@ -35,7 +35,12 @@ function Navbar() {
             >
               Guia
             </Link>
-
+            <Link
+              to="/comida"
+              className="text-black hover:text-orange-300 transition-colors font-medium"
+            >
+              Comida Tipica
+            </Link>
             <Link
               to={"/calendario"}
               className="bg-orange-400 hover:bg-orange-500 text-white px-6 py-2 rounded-full font-medium transition-colors"
@@ -76,6 +81,13 @@ function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Guia
+            </Link>
+            <Link
+              to="/comida"
+              className="block text-black hover:text-orange-300 transition-colors font-medium py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Comida Tipica
             </Link>
 
             <Link
