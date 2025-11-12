@@ -7,7 +7,7 @@ import cruzTacaraca from "../assets/images/CRUZ DE TACARACA.webp";
 import cruzChulpaca from "../assets/images/CHULPACA.webp";
 import cruzHuacachina from "../assets/images/CRUZ DE HUACACHINA SECA.webp";
 import huacachinaSeca from "../assets/images/huacachina seca.webp";
-import iglesiaEspinos from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 2.webp";
+import iglesiaEspinos from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 3.webp";
 import casonaEspinos from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
 import iglesiaYajasi from "../assets/images/IGLESIA DE YAJASI.webp";
 import cruzYajasi from "../assets/images/CRUZDEYAJASI.webp";
@@ -53,7 +53,7 @@ const attractions: Attraction[] = [
   },
   {
     id: 3,
-    name: "Museo municipal (taky)",
+    name: "Sala Arqueológica Municipal (Taky)",
     description: "Corazón social del distrito",
     details:
       "Por el CLIII aniversario de creación política del histórico distrito de Pueblo Nuevo, Ica, se inauguró la Sala de Exposición de la Cultura, encabezada por el alcalde Hebert Gonzáles Arcos; allí se conservan restos de las culturas Nasca e Ica, como cerámicas y textilerías.",
@@ -64,7 +64,7 @@ const attractions: Attraction[] = [
   },
   {
     id: 4,
-    name: "Sitio Arqueologico de Tacaraca",
+    name: "Centro Arqueológico de Tacaraca",
     description: "Auténtica experiencia comercial",
     details: `A 5 km aproximadamente se encuentra
 ubicado a la ciudad de Ica y a 500 metros
@@ -84,6 +84,36 @@ alrededores.`,
   },
   {
     id: 5,
+    name: "Sitio arqueológico de soniche -Huacachina seca",
+    description: "Auténtica experiencia comercial",
+    details: `Es un recinto arqueológico y un lugar donde
+se puede explorar con toda la familia y es un
+lugar tranquilo para despejarse. Hoy en día
+el sitio arqueológico está en excavación
+donde se encontraron restos de cerámica y
+textileria perteneciente a la cultura ica`,
+    image: huacachinaSeca,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+    {
+    id: 9,
+    name: "La Iglesia Callejon de los Espinos",
+    description: "Auténtica experiencia comercial",
+    details: `En el aspecto religioso en esta iglesia
+veneran al patrón de san Antonio de padua
+donde los pobladores del lugar cuentan que
+algunos matrimonios se han consolidado en
+el caserío gracias al patrón de san Antonio
+de Padua.`,
+    image: iglesiaEspinos,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 8,
     name: "Cruz de Tacaraca",
     description: "Auténtica experiencia comercial",
     details: `
@@ -113,52 +143,25 @@ vivas las tradiciones religiosas del distrito.
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
-  {
-    id: 7,
-    name: "Cruz de Huacachina Seca",
+    {
+    id: 16,
+    name: `Cruz de la
+Chibillona`,
     description: "Auténtica experiencia comercial",
-    details: `La Cruz de Huacachina seca es un símbolo
-religioso ubicado el caserío de Huacachina
-seca donde los pobladores le rinden
-homenaje cada mes de mayo y es venerado
-por los pobladores del lugar.
-      `,
-    image: cruzHuacachina,
+    details: `Este santísimo madero antiguamente
+los que provenían de las partes altas
+de Ica enterraban a sus muertos en
+ese lugar, cuando construyeron esta
+cruz al remover la arena se
+encontraron restos principalmente de
+niños enterrados. Hoy en día la familia
+Altamirano muy cerca de su predio
+cuida este madero.`,
+    image: cruzChibillona,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
-  {
-    id: 8,
-    name: "Sitio arqueológico de soniche -Huacachina seca",
-    description: "Auténtica experiencia comercial",
-    details: `Es un recinto arqueológico y un lugar donde
-se puede explorar con toda la familia y es un
-lugar tranquilo para despejarse. Hoy en día
-el sitio arqueológico está en excavación
-donde se encontraron restos de cerámica y
-textileria perteneciente a la cultura ica`,
-    image: huacachinaSeca,
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 9,
-    name: "La Iglesia Callejon de los Espinos",
-    description: "Auténtica experiencia comercial",
-    details: `En el aspecto religioso en esta iglesia
-veneran al patrón de san Antonio de padua
-donde los pobladores del lugar cuentan que
-algunos matrimonios se han consolidado en
-el caserío gracias al patrón de san Antonio
-de Padua.`,
-    image: iglesiaEspinos,
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-
   {
     id: 11,
     name: "Santisimo Madero de Callejon de los Espinos",
@@ -169,21 +172,6 @@ navarro desde el año de 1981 se venera esa
 cruz, se venera esta cruz hasta la
 actualidad.`,
     image: casonaEspinos,
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 12,
-    name: "Iglesia Colonial de la Virgen del Carmen de Yajasi",
-    description: "Auténtica experiencia comercial",
-    details: `La iglesia colonial de yajasi esta iglesia se
-construyo en honor a la santisima virgen del
-carmen de yajasi cuya festividad se realiza
-desde el 04 de setiembre primer dia de
-festividad hasta el 22 de setiembre dia
-central.`,
-    image: iglesiaYajasi,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
@@ -203,8 +191,23 @@ religiosa entre los devotos locales`,
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
+{
+    id: 7,
+    name: "Cruz de Huacachina Seca",
+    description: "Auténtica experiencia comercial",
+    details: `La Cruz de Huacachina seca es un símbolo
+religioso ubicado el caserío de Huacachina
+seca donde los pobladores le rinden
+homenaje cada mes de mayo y es venerado
+por los pobladores del lugar.
+      `,
+    image: cruzHuacachina,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
   {
-    id: 13,
+    id: 14,
     name: `Santísimo Madero de la
 Juliana de pongo
 Grande`,
@@ -229,43 +232,6 @@ todos los años en el mes de mayo.`,
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
-  {
-    id: 14,
-    name: `La Achirana del
-Inca`,
-    description: "Auténtica experiencia comercial",
-    details: `Es un canal de regadío Incaico, que las
-versiones legendarias le asignan 600 años
-de antigüedad.
-Según la leyenda, el Inca Pachacútec
-ordenó su construcción como prueba del
-amor que despertó en él una joven de la
-localidad.`,
-    image: achiranaInca,
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 15,
-    name: `Cruz de la
-Chibillona`,
-    description: "Auténtica experiencia comercial",
-    details: `Este santísimo madero antiguamente
-los que provenían de las partes altas
-de Ica enterraban a sus muertos en
-ese lugar, cuando construyeron esta
-cruz al remover la arena se
-encontraron restos principalmente de
-niños enterrados. Hoy en día la familia
-Altamirano muy cerca de su predio
-cuida este madero.`,
-    image: cruzChibillona,
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-
   {
     id: 17,
     name: `Cruz de los
@@ -313,7 +279,7 @@ Nuevo.`,
     difficulty: "Fácil",
   },
   {
-    id: 17,
+    id: 19,
     name: `Cruz de Pariña
 Grande`,
     description: "Auténtica experiencia comercial",
@@ -327,6 +293,38 @@ maderos hay cada
 mayordomo por familia asume
 el cargo.`,
     image: cruzParinaGrande,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 12,
+    name: "Iglesia Colonial de la Virgen del Carmen de Yajasi",
+    description: "Auténtica experiencia comercial",
+    details: `La iglesia colonial de yajasi esta iglesia se
+construyo en honor a la santisima virgen del
+carmen de yajasi cuya festividad se realiza
+desde el 04 de setiembre primer dia de
+festividad hasta el 22 de setiembre dia
+central.`,
+    image: iglesiaYajasi,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 15,
+    name: `La Achirana del
+Inca`,
+    description: "Auténtica experiencia comercial",
+    details: `Es un canal de regadío Incaico, que las
+versiones legendarias le asignan 600 años
+de antigüedad.
+Según la leyenda, el Inca Pachacútec
+ordenó su construcción como prueba del
+amor que despertó en él una joven de la
+localidad.`,
+    image: achiranaInca,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
@@ -351,7 +349,7 @@ export default function AttractionDetails() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4">
         {attractions.map((attraction) => (
           <div
             key={attraction.id}

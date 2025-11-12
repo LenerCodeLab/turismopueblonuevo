@@ -376,7 +376,7 @@ export const postresData: Attraction[] = [
   },
   {
     id: 17,
-    name: "Tejas y Chocotejas",
+    name: "Tejas y Chocotejas de Pecana",
     description: "Dulces representativos de Ica",
     details:
       "Dulces rellenos con manjar y pecanas o frutas, cubiertos en chocolate o glasé.",

@@ -8,7 +8,6 @@ export interface Attraction {
   details: string;
 }
 // === Atractivos y lugares turísticos ===
-import Circuito from "../assets/images/Circuito.webp";
 import LA_ACHIRANA_DEL_INCA from "../assets/images/LA ACHIRANA DEL INCA.webp";
 import HUACACHINA_SECA from "../assets/images/huacachina seca.webp";
 import TACARACA from "../assets/images/tacaraca.webp";
@@ -23,7 +22,6 @@ import PUEBLONUEVO3 from "../assets/images/PUEBLO NUEVO 3.webp"
 import PUEBLONUEVO4 from "../assets/images/PUEBLO NUEVO 4.webp"
 import PUEBLONUEVO5 from "../assets/images/PUEBLO NUEVO 5.webp"
 import PUEBLONUEVO6 from "../assets/images/PUEBLO NUEVO 6.webp";
-import ANIVERSARIOPUEBLONUEVO from "../assets/images/ANIVERSARIO PUEBLO NUEVO.webp";
 
 // === Alojamiento ===
 import HospedajeMangual1 from "../assets/images/Hospedaje de Mangual.webp";
@@ -44,14 +42,14 @@ import IGLESIAPONGOZEGARRA from "../assets/images/IGLESIA PONGO DE LOS ZEGARRA.w
 import IGLESIAPONGOZEGARRA2 from "../assets/images/IGLESIA PONGO DE LOS ZEGARRA2.webp";
 import IGLESIAPONGOZEGARRA3 from "../assets/images/IGLESIA PONGO DE LOS ZEGARRA3.webp";
 import IGLESIAPONGOCHICO from "../assets/images/IGLESIA COLONIAL VIRGEN DEL CARMEN PONGO CHICO.webp";
-import IGLESIASANRAFAEL from "../assets/images/iglesia de san rafael de aguaguana.webp";
+import IGLESIASANRAFAEL from "../assets/images/IGLESIADESANRAFAELDEAGUAGUANA2.webp";
 import IGLESIACALLEJONESPINOS1 from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 2.webp";
 import IGLESIACALLEJONESPINOS2 from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 2.webp";
 import IGLESIACALLEJONESPINOS3 from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 3.webp";
 import DONPAULO from "../assets/images/LA CASONA DE DON PAULO.webp";
 
 // === Cruces ===
-import CRUZENTRADA from "../assets/images/CRUZENTRADA.webp";
+import CRUZENTRADA from "../assets/images/cruzentradapueblonuevo.webp";
 import CRUZPARINAGRANDE1 from "../assets/images/CRUZ DE PARIÑA GRANDE.webp";
 import CRUZPARINAGRANDE2 from "../assets/images/CRUZ DE PARIÑA GRANDE 2.webp";
 import CRUZCHIBILLONA1 from "../assets/images/CRUZ DE LA CHIBILLONA.webp";
@@ -68,7 +66,6 @@ import CRUZTACARACA from "../assets/images/CRUZ DE TACARACA.webp";
 import CRUZTACARACA2 from "../assets/images/CRUZ DE TACARACA 2.webp";
 import CRUZHUACACHINASECA1 from "../assets/images/CRUZ DE HUACACHINA SECA.webp";
 import CRUZHUACACHINASECA2 from "../assets/images/CRUZ DE HUACACHINA SECA2.webp";
-import CRUZESPINOS from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
 import CRUZPONGOGRANDE from "../assets/images/CRUZ DE PONGO GRANDE.webp";
 import CRUZCONUCA from "../assets/images/CRUZ DE CONUCA.webp";
 import CRUZYAJASI from "../assets/images/CRUZDEYAJASI.webp";
@@ -76,7 +73,6 @@ import CRUZCALLEJONDELOSESPINOS from "../assets/images/CRUZ CALLEJON DE LOS ESPI
 
 // === Museos y cultura ===
 import MUSEOSITIO from "../assets/images/MUSEO DE SITIO.webp";
-import TAKY from "../assets/images/MUSEO DE SITIO.webp";
 
 // === Restaurantes y gastronomía ===
 import RESTAURANTMARIA from "../assets/images/RESTAURANTEMARIAROSA1.webp";
@@ -93,10 +89,6 @@ import BODEGASANISIDRO2 from "../assets/images/BODEGASANISIDRO2.webp";
 import VINAJAZMIN1 from "../assets/images/VIÑAJAZMIN1.webp";
 import VINAJAZMIN2 from "../assets/images/VIÑAJAZMIN2.webp";
 
-// === Personajes, íconos y extras ===
-import MUNICIPIOLOGO from "../assets/images/cropped-logo-muni-3-245x300.webp";
-import MUÑECO from "../assets/images/muñeco.webp";
-import DEFAULT from "../assets/images/default.jpg";
 export const attractions: Attraction[] = [
   {
     id: 1,
@@ -130,7 +122,7 @@ export const attractions: Attraction[] = [
     name: "Cruz de Entrada",
     category: "Cruz",
     description: "Cruz que da la bienvenida en la entrada de pueblo nuevo",
-    coordinates: [-14.128628, -75.716247],
+    coordinates: [-14.128523, -75.716388],
     images: [CRUZENTRADA],
     details: "Un ambiente familiar en un entorno natural tranquilo.",
   },
@@ -472,9 +464,40 @@ export const attractions: Attraction[] = [
     name: "Entrada al Distrito de Pueblo Nuevo",
     category: "Atractivo turístico",
     description: "Entrada histórica a Pueblo Nuevo",
-    coordinates: [-14.128727, -75.716268],
+    coordinates: [-14.128755, -75.715994],
     images: [ENTRADAPUEBLONUEVO],
     details:
       "La entrada principal a Pueblo Nuevo, un lugar de gran significancia cultural y histórica.",
   },
+  {
+    id: 40,
+    name: "Bodega San Isidro",
+    category: "Atractivo turístico",
+    description: "Viñedo y centro de esparcimiento",
+    coordinates: [-14.134673237839719, -75.68960612698883],
+    images: [BODEGASANISIDRO1,BODEGASANISIDRO2],
+    details:
+      "Centro de esparcimiento con viñedos, ideal para pasar un día relajante.",
+  },
+  {
+    id: 41,
+    name: "Cruz de Tacaraca",
+    category: "Atractivo turístico",
+    description: "Monumento religioso de la región",
+    coordinates: [-14.13153, -75.71913],
+    images: [CRUZTACARACA,CRUZTACARACA2],
+    details:
+      "Cruz en la localidad de tacaraca, ideal para quienes disfrutan de la tranquilidad del campo.",
+  },
+  {
+    id: 42,
+    name: "Cruz de Yajasi",
+    category: "Atractivo turístico",
+    description: "Monumento religioso de la región",
+    coordinates: [-14.135, -75.69013],
+    images: [CRUZYAJASI],
+    details:
+      "Perfecto para quienes buscan descansar en plena naturaleza.",
+  },
+  
 ];
