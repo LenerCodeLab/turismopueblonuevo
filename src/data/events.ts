@@ -13,7 +13,7 @@ import cruzPongoGrande from "../assets/images/CRUZ DE PONGO GRANDE.webp";
 import cruzCallejonEspinos from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
 import cruzChibillona from "../assets/images/CRUZ DE LA CHIBILLONA.webp";
 import cruzPuebloNuevo from "../assets/images/IGLESIA VIRGEN DEL CARMEN CRUZ.webp";
-import defaultImage from "../assets/images/default.jpg";
+import pongochico from "../assets/images/IGLESIA COLONIAL VIRGEN DEL CARMEN PONGO CHICO.webp";
 import cruzhuacachinaseca from "../assets/images/CRUZ DE HUACACHINA SECA.webp";
 import aniversarioGabino from "../assets/images/aniversariogabino.webp";
 import carnaval from "../assets/images/carnaval.webp";
@@ -31,13 +31,19 @@ import trabajoMunicipal from "../assets/images/trabajormunicipal.webp";
 import vendimia from "../assets/images/vendimia.webp";
 import virgenDelCarmenFest from "../assets/images/virgendelcarmen.webp";
 import yunza from "../assets/images/yunza.webp";
-import taki from "../assets/images/taki.jpg";
+import bandacallejon from "../assets/images/BANDAPASTORESCALLEJON.webp";
+import unesco from "../assets/images/UNESCO.webp";
+import princesachumbillan from "../assets/images/FESTIVALDEPRINCESACHUBILLANA.webp";
+import pastoresdivinoniño from "../assets/images/BANDAPASTORESDIVINONIÑOJESUS.webp";
+import festivalcomparsa from "../assets/images/FESTIVALDECOMPARSANEGRITOS.webp";
 import takiTour from "../assets/images/takiTour.jpg";
 import cancionCriolla from "../assets/images/cancionCriolla.jpg";
 import SantísimaVirgenDeChapi from "../assets/images/Santísima Virgen De Chapi De Miraflores De Pueblo Nuevo.jpg";
 import CruzPongoChico from "../assets/images/cruzpongochico.webp";
 import FestividadSantísimaVirgenCarmenYajasiSegundo from "../assets/images/virgendelcarmenyajasi2.webp";
 import ninoAyavi from "../assets/images/divinoniñojesusayavi.webp";
+import festivaldanzas from "../assets/images/FESTIVALDEDANZAS.webp";
+import festivalpisco from "../assets/images/FESTIVALPISCOSOUR.webp";
 export const events = [
   {
     day: "30",
@@ -63,6 +69,13 @@ export const events = [
     image: carnaval,
   },
   { day: "14", month: 2, title: "Yunza", color: "red", image: yunza },
+  {
+    day: "3",
+    month: 3,
+    title: "Festival del Pisco Sour",
+    color: "blue",
+    image: festivalpisco,
+  },
   {
     day: "4",
     month: 3,
@@ -200,9 +213,9 @@ export const events = [
     image: sanAntonioPadua,
   },
   {
-    day: "14",
+    day: "6 - 18",
     month: 7,
-    title: "Virgen del Carmen - Distrito de Pueblo Nuevo",
+    title: "SANTISIMA VIRGEN DEL CARMEN PATRONA DE PUEBLO NUEVO CAPITAL DEL DISTRITO",
     color: "cyan",
     image: virgendelcarmen,
   },
@@ -210,9 +223,9 @@ export const events = [
     day: "17-18",
     month: 7,
     title:
-      "Festividad de la Santísima Virgen del Carmen en el sector Chacapampa y Callejón del Centro Poblado Callejón de los Espinos",
+      "FESTIVIDAD DE LA SANTISIMA VIRGEN DEL CARMEN Y EL SANTISIMO SACRAMENTO DE C.P. PONGO CHICO",
     color: "orange",
-    image: callejon,
+    image: pongochico,
   },
   {
     day: "16",
@@ -247,7 +260,7 @@ export const events = [
     month: 9,
     title: "FESTIVAL DE DANZAS ( FIESTA DE LA JUVENTUD )",
     color: "pink",
-    image: taki,
+    image: festivaldanzas,
   },
   {
     day: "09",
@@ -297,7 +310,7 @@ export const events = [
     title:
       "Festival de la Princesa Chumbillalla , Escenificacion de la Leyenda de la achirana del Inca ",
     color: "red",
-    image: ikaraymi,
+    image: princesachumbillan,
   },
   {
     day: "24",
@@ -319,20 +332,20 @@ export const events = [
     title:
       "Celebración del reconocimiento de la UNESCO a la danza atajos, comparsa de negritos y pallitas en Ica como patrimonio cultural inmaterial de la humanidad",
     color: "purple",
-    image: defaultImage,
+    image: unesco,
   },
   {
     day: "24 - 25",
     month: 12,
     title: "Festival de la comparsa de negritos",
-    image: defaultImage,
+    image: festivalcomparsa,
     color: "pink",
   },
   {
     day :"30",
     month: 11,
     title: "Creación de la banda de pastores divino niño Jesús del caserío de chulpaca",
-    image: defaultImage,
+    image: pastoresdivinoniño,
     color: "blue",
 
   },
@@ -341,6 +354,6 @@ export const events = [
       month:3,
       title: "Banda de pastores del caserío callejón de los espinos dirigido por el maestro y cantante Guillermo Navarro Anyarin",
       color: "yellow",
-      image: defaultImage,
+      image: bandacallejon,
     }
 ];

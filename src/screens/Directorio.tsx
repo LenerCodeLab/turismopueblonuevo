@@ -70,6 +70,87 @@ export function Directorio() {
       direccion: "Caserío Huacachina Seca",
       telefono: "969030590",
     },
+    {
+      nombre: "Restaurant Maria Rosa",
+      direccion: "Caserío Huacachina Seca",
+      telefono: "922234444",
+    },
+    {
+      nombre: "Restaurante La Pichanga",
+      direccion: "Upis Magisterial S/N, Caserío de Yajasi",
+      telefono: "912502393 / 992608040",
+    },
+    {
+      nombre: "Restaurant Campestre La Granja de Eva",
+      direccion: "Caserío de San Rafael de Aguaguana",
+      telefono: "997415503",
+    },
+    {
+      nombre: "Restaurant “Pepa de Oro”",
+      direccion: "CC.PP Pongo Chico",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Restaurant “El Carbón”",
+      direccion: "Pongo Grande",
+      telefono: "959782023",
+    },
+    {
+      nombre: "Restaurant “Virgen de Chapi”",
+      direccion: "Pueblo Nuevo",
+      telefono: "903146581",
+    },
+    {
+      nombre: "Bar “Bar Warren”",
+      direccion: "Pueblo Nuevo",
+      telefono: "994931068",
+    },
+    {
+      nombre: "Restaurant “Huarique del chicho”",
+      direccion: "Pueblo Nuevo",
+      telefono: "992808848",
+    },
+    {
+      nombre: "Restaurant “La tía bebe”",
+      direccion: "Pueblo Nuevo",
+      telefono: "956393839",
+    },
+    {
+      nombre: "Restaurant “Comida Campestre”",
+      direccion: "Pueblo Nuevo",
+      telefono: "996400927",
+    },
+    {
+      nombre: "Restaurant “La esquina de Yovi”",
+      direccion: "Pueblo Nuevo",
+      telefono: "947709665",
+    },
+    {
+      nombre: "Restaurant “Las delicias de Dina”",
+      direccion: "Caserío de Chulpaca",
+      telefono: "917201454",
+    },
+    {
+      nombre: "Restaurant Chacra Rosa",
+      direccion: "Camino Pueblo Nuevo",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Restaurant Silvana",
+      direccion: "Caserío San Rafael de Aguanana",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Restaurante “La sazón de Juanita”",
+      direccion: "Bellavista S/N, Pueblo Nuevo",
+      telefono: "975027255",
+    },
+    {
+      nombre: "Restaurante Corina",
+      direccion: "Caserío San Rafael de Aguanana",
+      telefono: "S/N",
+    },
+
   ];
 
   const pastelerias = [
@@ -85,9 +166,108 @@ export function Directorio() {
     },
   ];
 
+  const bodegas = [
+    {
+      nombre: "Bodega Hermanos Anicama Rejas",
+      direccion: "Av. Luis Camino Dibos N-10",
+      telefono: "956382437",
+    },
+    {
+      nombre: "Bodega Hermanos Anicama",
+      direccion: "Av. Luis Camino Divos",
+      telefono: "953293433",
+    },
+    {
+      nombre: "Bodega Chacaltana",
+      direccion: "Caserío Callejón de los Espinos",
+      telefono: "987105373",
+    },
+    {
+      nombre: "Bodega Don Benjamín",
+      direccion: "Caserío Chaype",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Bodega Piscos y Vinos",
+      direccion: "Caserío Chaype",
+      telefono: "902333937",
+    },
+    {
+      nombre: "Open Bar Chepe Cocteles",
+      direccion: "Caserío Chulpaca",
+      telefono: "923277761",
+    },
+    {
+      nombre: "Bodega San Inocente",
+      direccion: "Caserío Chulpaca",
+      telefono: "966907950",
+    },
+    {
+      nombre: "Bodega Liduvina",
+      direccion: "Caserío Chulpaca",
+      telefono: "917201454",
+    },
+    {
+      nombre: "Bodega Don Artemio",
+      direccion: "Caserío Chulpaca",
+      telefono: "971124603",
+    },
+    {
+      nombre: "Bodega Don Chevo",
+      direccion: "Caserío Chulpaca",
+      telefono: "972251642",
+    },
+    {
+      nombre: "Bodega Familia Angulo Rejas",
+      direccion: "Caserío Chulpaca",
+      telefono: "932325278",
+    },
+    {
+      nombre: "Bodega Huarangal",
+      direccion: "Caserío Conuca",
+      telefono: "953293821",
+    },
+    {
+      nombre: "Bodega Piscos Adriano",
+      direccion: "Caserío Conuca",
+      telefono: "941125799",
+    },
+    {
+      nombre: "Bodega Don Nicolás DYA",
+      direccion: "Caserío Huacachina Seca",
+      telefono: "968966205",
+    },
+    {
+      nombre: "Productora Piscos y Vinos",
+      direccion: "Caserío Pariña Grande",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Bodega Angulo",
+      direccion: "Caserío Pariña Grande",
+      telefono: "956634886",
+    },
+    {
+      nombre: "Bodega Bohórquez",
+      direccion: "Caserío Pongo Chico",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Bodega Municipal",
+      direccion: "Caserío Pongo Chico",
+      telefono: "S/N",
+    },
+    {
+      nombre: "Productora Piscos y Vinos",
+      direccion: "Caserío Pongo de los Zegarra",
+      telefono: "S/N",
+    },
+
+  ];
+
   const estadio = [
     {
-      nombre: "Estadio Municipal Pedro Tipacti Ríos",
+      nombre: "Estadio Municipal Pedro Tipacti Rios",
       direccion: "Calle Pedro Uchuga S/N",
       telefono: "S/N",
     },
@@ -99,7 +279,24 @@ export function Directorio() {
       direccion: "Calle Ayacucho",
       horario: "8:00 a.m. – 6:00 p.m.",
       tarifa: "S/ 3.00",
-      telefono: "S/N",
+    },
+    {
+      empresa: "Comité de Autos Virgen del Carmen",
+      direccion: "Calle Ayacucho",
+      horario: "5:00 a.m. – 6:00 p.m.",
+      tarifa: "4.00",
+    },
+    {
+      empresa: "Comité de Autos Pariña y Pongo Grande – EMTAPASA",
+      direccion: "Calle Ayacucho",
+      horario: "8:00 a.m. – 6:00 p.m.",
+      tarifa: "3.00",
+    },
+    {
+      empresa: "Comité de Autos EPSACRUZ",
+      direccion: "Calle Ayacucho",
+      horario: "8:00 a.m. – 6:00 p.m.",
+      tarifa: "3.00",
     },
   ];
 
@@ -262,11 +459,23 @@ export function Directorio() {
                 4. Bodegas vitivinícolas
               </h3>
             </div>
-            <p className="text-sm text-slate-600 bg-white rounded-2xl p-4 shadow-sm ring-1 ring-slate-200">
-              Próximamente se incorporará el detalle de bodegas y viñedos del
-              distrito de Pueblo Nuevo para que puedas planificar tus rutas
-              enoturísticas.
-            </p>
+            <div className="grid gap-4 md:grid-cols-2">
+              {bodegas.map((p, idx) => (
+                <div
+                  key={idx}
+                  className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 flex flex-col gap-1"
+                >
+                  <h4 className="text-lg font-semibold text-slate-900">
+                    {p.nombre}
+                  </h4>
+                  <p className="text-sm text-slate-600">{p.direccion}</p>
+                  <p className="text-sm text-slate-700 flex items-center gap-1">
+                    <PhoneCall className="h-4 w-4 text-emerald-600" />
+                    <span>{p.telefono}</span>
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Estadio */}
@@ -303,19 +512,29 @@ export function Directorio() {
                 6. Transporte terrestre
               </h3>
             </div>
-            <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200 max-w-xl">
-              <h4 className="text-lg font-semibold text-slate-900">
-                {transporte[0].empresa}
-              </h4>
-              <p className="text-sm text-slate-600">
-                Dirección: {transporte[0].direccion}
-              </p>
-              <p className="text-sm text-slate-600">
-                Horario de salidas: {transporte[0].horario}
-              </p>
-              <p className="text-sm text-slate-600">
-                Tarifa referencial: {transporte[0].tarifa}
-              </p>
+            <div className="grid md:grid-cols-2 gap-4">
+              {transporte.map((item, index) => (
+                <div
+                  key={index}
+                  className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200"
+                >
+                  <h4 className="text-lg font-semibold text-slate-900">
+                    {item.empresa}
+                  </h4>
+
+                  <p className="text-sm text-slate-600">
+                    Dirección: {item.direccion}
+                  </p>
+
+                  <p className="text-sm text-slate-600">
+                    Horario de salidas: {item.horario}
+                  </p>
+
+                  <p className="text-sm text-slate-600">
+                    Tarifa referencial: {item.tarifa}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
 
