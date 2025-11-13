@@ -42,6 +42,12 @@ function Navbar() {
               Comida Tipica
             </Link>
             <Link
+              to="/directorio"
+              className="text-black hover:text-orange-300 transition-colors font-medium"
+            >
+              Directorio
+            </Link>
+            <Link
               to={"/calendario"}
               className="bg-orange-400 hover:bg-orange-500 text-white px-6 py-2 rounded-full font-medium transition-colors"
             >
@@ -89,9 +95,16 @@ function Navbar() {
             >
               Comida Tipica
             </Link>
-
             <Link
-              to={"/calendario"}
+              to="/directorio"
+              className="block text-black hover:text-orange-300 transition-colors font-medium py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Directorio
+            </Link>
+            <Link
+              onClick={() => setIsOpen(false)}
+              to="/calendario"
               className="w-full bg-orange-400 hover:bg-orange-500 text-white px-6 py-2 rounded-full font-medium transition-colors mt-5"
             >
               Ver Calendario Interactivo

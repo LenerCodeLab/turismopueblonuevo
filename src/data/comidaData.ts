@@ -49,6 +49,16 @@ import caldoGallina from "../assets/images/caldoGallina.jpg";
 import sopaCancate from "../assets/images/sopaCancate.jpg";
 import adoboRes from "../assets/images/adoboRes.jpg";
 import arrozPato from "../assets/images/arrozPato.jpg";
+import dulceZapallo from "../assets/images/DULCEDEZAPALLO.webp";
+import limonesRellenos from "../assets/images/LIMONESRELLENOS.webp";
+import tejasPecanas from "../assets/images/Tejas.webp";
+import torrejitasZapallo from "../assets/images/TORREJITASDEZAPALLO.webp";
+import dulceCamote from "../assets/images/DULCEDECAMOTE.webp";
+import sango from "../assets/images/SANGO.webp";
+import torrejitasMaiz from "../assets/images/TORREJITASDEMAIZ.webp";
+import lecheCabra from "../assets/images/LECHEDECABRA.webp";
+import panLena from "../assets/images/PANDELEÑA.webp";
+import panLenaChicharron from "../assets/images/PANCONCHICHARRON.webp";
 export const comidaData: Attraction[] = [
   // ---------------- PLATOS TÍPICOS ----------------
   {
@@ -429,6 +439,83 @@ export const postresData: Attraction[] = [
     bestTime: "Tardes",
     difficulty: "Fácil",
   },
+  {
+    id: 22,
+    name: "Dulce de Zapallo",
+    description: "Tradición otoñal del campo",
+    details:
+      "Postre elaborado con zapallo, azúcar y canela, cocido lentamente hasta obtener una textura suave y dulce. Ideal para acompañar con pan o queso fresco.",
+    image: dulceZapallo,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Media",
+  },
+  {
+    id: 23,
+    name: "Limones Rellenos",
+    description: "Delicia cítrica iqueña",
+    details:
+      "Limones vaciados y rellenos con dulce de manjar blanco y coco rallado, combinando el sabor ácido con la dulzura tradicional de la región.",
+    image: limonesRellenos,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Media",
+  },
+  {
+    id: 24,
+    name: "Tejas de Pecanas",
+    description: "Clásico dulce iqueño",
+    details:
+      "Dulces rellenos de manjar blanco y pecanas, cubiertos con una fina capa de azúcar glas. Representan uno de los símbolos más conocidos de la repostería iqueña.",
+    image: tejasPecanas,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Media",
+  },
+  {
+    id: 25,
+    name: "Torrejitas de Zapallo",
+    description: "Tradición frita y dulce",
+    details:
+      "Masa de zapallo, harina y azúcar frita en pequeñas porciones, servidas calientes y espolvoreadas con azúcar. Muy populares en fiestas patronales.",
+    image: torrejitasZapallo,
+    type: "Postre Típico",
+    bestTime: "Mañanas y tardes",
+    difficulty: "Fácil",
+  },
+  {
+    id: 26,
+    name: "Dulce de Camote",
+    description: "Dulzura casera tradicional",
+    details:
+      "Preparado con camote, clavo y canela, cocido hasta formar una mermelada espesa. Se sirve frío o tibio, ideal para acompañar panes o empanadas.",
+    image: dulceCamote,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Fácil",
+  },
+  {
+    id: 27,
+    name: "Sango",
+    description: "Antiguo postre a base de maíz",
+    details:
+      "Hecho con harina de maíz tostado, chancaca y manteca, mezclado hasta lograr una masa dulce y compacta. De gran valor histórico en la gastronomía costeña.",
+    image: sango,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Media",
+  },
+  {
+    id: 28,
+    name: "Torrejitas de Maíz",
+    description: "Sabor tradicional del campo",
+    details:
+      "Pequeñas porciones fritas hechas con maíz tierno molido, harina y azúcar. Crujientes por fuera y suaves por dentro, típicas de celebraciones rurales.",
+    image: torrejitasMaiz,
+    type: "Postre Típico",
+    bestTime: "Tardes",
+    difficulty: "Fácil",
+  },
 ];
 export const bebidasData: Attraction[] = [
   {
@@ -506,6 +593,41 @@ export const bebidasData: Attraction[] = [
     image: piscoSour,
     type: "Bebida Típica",
     bestTime: "Celebraciones",
+    difficulty: "Media",
+  },
+];
+export const desayunosData: Attraction[] = [
+  {
+    id: 1,
+    name: "Leche de Cabra",
+    description: "Tradición natural y nutritiva",
+    details:
+      "Bebida fresca y cremosa obtenida directamente de cabras locales. Rica en proteínas y calcio, suele servirse caliente durante los desayunos del campo.",
+    image: lecheCabra,
+    type: "Desayuno Típico",
+    bestTime: "Mañanas",
+    difficulty: "Fácil",
+  },
+  {
+    id: 2,
+    name: "Pan de Leña",
+    description: "Horneado artesanalmente",
+    details:
+      "Pan elaborado con masa tradicional y cocido en hornos de leña, lo que le otorga un sabor ahumado único y una textura crujiente por fuera, suave por dentro.",
+    image: panLena,
+    type: "Desayuno Típico",
+    bestTime: "Mañanas",
+    difficulty: "Media",
+  },
+  {
+    id: 3,
+    name: "Pan de Leña con Chicharrón de Chancho",
+    description: "Clásico desayuno iqueño",
+    details:
+      "Combinación deliciosa de pan horneado al fuego de leña acompañado de chicharrón de cerdo recién frito, servido con sarza criolla. Ideal para empezar el día con energía.",
+    image: panLenaChicharron,
+    type: "Desayuno Típico",
+    bestTime: "Mañanas",
     difficulty: "Media",
   },
 ];

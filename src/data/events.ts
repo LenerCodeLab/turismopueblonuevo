@@ -34,6 +34,10 @@ import yunza from "../assets/images/yunza.webp";
 import taki from "../assets/images/taki.jpg";
 import takiTour from "../assets/images/takiTour.jpg";
 import cancionCriolla from "../assets/images/cancionCriolla.jpg";
+import SantísimaVirgenDeChapi from "../assets/images/Santísima Virgen De Chapi De Miraflores De Pueblo Nuevo.jpg";
+import CruzPongoChico from "../assets/images/cruzpongochico.webp";
+import FestividadSantísimaVirgenCarmenYajasiSegundo from "../assets/images/virgendelcarmenyajasi2.webp";
+import ninoAyavi from "../assets/images/divinoniñojesusayavi.webp";
 export const events = [
   {
     day: "30",
@@ -156,6 +160,13 @@ export const events = [
   {
     day: "01 - 30",
     month: 5,
+    title: "Cruz de Pongo Chico",
+    color: "blue",
+    image: CruzPongoChico,
+  },
+  {
+    day: "01 - 30",
+    month: 5,
     title: "Cruz de Callejón de los Espinos",
     color: "pink",
     image: cruzCallejonEspinos,
@@ -218,11 +229,32 @@ export const events = [
     image: santaRosaDeLima,
   },
   {
+    day: "01",
+    month: 9,
+    title: "Santísima Virgen de Chapi de Miraflores de Pueblo Nuevo",
+    image: SantísimaVirgenDeChapi,
+  },
+  {
+    day: "03",
+    month: 9,
+    title:
+      "Festividad de la Santísima Virgen del Carmen de Yajasi - Segundo altar de yauca",
+    color: "red",
+    image: FestividadSantísimaVirgenCarmenYajasiSegundo,
+  },
+  {
     day: "23",
     month: 9,
     title: "FESTIVAL DE DANZAS ( FIESTA DE LA JUVENTUD )",
     color: "pink",
     image: taki,
+  },
+  {
+    day: "09",
+    month: 9,
+    title:
+      "Celebración del Divino niño Jesús de Ayavi de Pueblo Nuevo Cercado Pariña Grande Yajasi",
+    image: ninoAyavi,
   },
   {
     day: "31",
@@ -260,11 +292,12 @@ export const events = [
     image: ikaraymi,
   },
   {
-    day:"16",
-    month:11,
-    title:"Festival de la Princesa Chumbillalla , Escenificacion de la Leyenda de la achirana del Inca ",
-    color:"red",
-    image:ikaraymi,
+    day: "16",
+    month: 11,
+    title:
+      "Festival de la Princesa Chumbillalla , Escenificacion de la Leyenda de la achirana del Inca ",
+    color: "red",
+    image: ikaraymi,
   },
   {
     day: "24",
@@ -280,4 +313,34 @@ export const events = [
     color: "teal",
     image: nacimiento,
   },
+  {
+    day: "4",
+    month: 3,
+    title:
+      "Celebración del reconocimiento de la UNESCO a la danza atajos, comparsa de negritos y pallitas en Ica como patrimonio cultural inmaterial de la humanidad",
+    color: "purple",
+    image: defaultImage,
+  },
+  {
+    day: "24 - 25",
+    month: 12,
+    title: "Festival de la comparsa de negritos",
+    image: defaultImage,
+    color: "pink",
+  },
+  {
+    day :"30",
+    month: 11,
+    title: "Creación de la banda de pastores divino niño Jesús del caserío de chulpaca",
+    image: defaultImage,
+    color: "blue",
+
+  },
+    {
+      day :"15",
+      month:3,
+      title: "Banda de pastores del caserío callejón de los espinos dirigido por el maestro y cantante Guillermo Navarro Anyarin",
+      color: "yellow",
+      image: defaultImage,
+    }
 ];

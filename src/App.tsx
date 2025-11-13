@@ -3,6 +3,7 @@ import Inicio from "./screens/Inicio";
 import Calendario from "./screens/Calendario";
 import Guia from "./screens/Guia";
 import ComidaTipicaScreen from "./screens/ComidaTipica";
+import { Directorio } from "./screens/Directorio";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/guia" element={<Guia />} />
       <Route path="/calendario" element={<Calendario />} />
       <Route path="/comida" element={<ComidaTipicaScreen />} />
+      <Route path="/directorio" element={<Directorio />} />
     </Routes>
   );
 }
