@@ -1,5 +1,22 @@
 import { MapPin, Clock, Trophy } from "lucide-react";
-
+import puebloNuevo from "../assets/images/PUEBLO NUEVO 4.webp";
+import iglesiaCarmen1 from "../assets/images/IGLESIA VIRGEN DEL CARMEN.webp";
+import museoSitio from "../assets/images/MUSEO DE SITIO.webp";
+import museaTacara from "../assets/images/tacaraca.webp";
+import cruzTacaraca from "../assets/images/CRUZ DE TACARACA.webp";
+import cruzChulpaca from "../assets/images/CHULPACA.webp";
+import cruzHuacachina from "../assets/images/CRUZ DE HUACACHINA SECA.webp";
+import huacachinaSeca from "../assets/images/huacachina seca.webp";
+import iglesiaEspinos from "../assets/images/IGLESIA CALLEJON DE LOS ESPINOS 3.webp";
+import casonaEspinos from "../assets/images/CRUZ CALLEJON DE LOS ESPINOS.webp";
+import iglesiaYajasi from "../assets/images/IGLESIA DE YAJASI.webp";
+import cruzYajasi from "../assets/images/CRUZDEYAJASI.webp";
+import santisimoJuliana from "../assets/images/CRUZ DE PONGO GRANDE.webp";
+import achiranaInca from "../assets/images/LA ACHIRANA DEL INCA.webp";
+import cruzChibillona from "../assets/images/CRUZ DE LA CHIBILLONA.webp";
+import cruzUchuya from "../assets/images/CRUZ DE LOS UCHUYA.webp";
+import cruzConuca from "../assets/images/CRUZ DE CONUCA.webp";
+import cruzParinaGrande from "../assets/images/CRUZ DE PARIÑA GRANDE.webp";
 interface Attraction {
   id: number;
   name: string;
@@ -17,9 +34,8 @@ const attractions: Attraction[] = [
     name: "Plaza de Armas de Pueblo Nuevo",
     description: "Joya arquitectónica del distrito",
     details:
-      "Esta plaza se caracteriza es un lugarapasible para despejarse del bullisio de laciudad, donde cuenta con 3 tachos de basura para la clasificacion de los desechos, plasticos y una pileta ornamental, en los ultimos años la plaza ha pasado por muchas remodelaciones",
-    image:
-      "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+      "Esta plaza se caracteriza es un lugar apasible para despejarse del bullisio de laciudad, donde cuenta con 3 tachos de basura para la clasificacion de los desechos, plasticos y una pileta ornamental, en los ultimos años la plaza ha pasado por muchas remodelaciones",
+    image: puebloNuevo,
     type: "Histórico-Religioso",
     bestTime: "Durante festividades",
     difficulty: "Fácil",
@@ -30,27 +46,25 @@ const attractions: Attraction[] = [
     description: "Epicentro de la vida comunitaria",
     details:
       "Esta iglesia ubicada en el Distrito de Pueblo Nuevo está situada cerca de la Plaza de Armas de Pueblo Nuevo y la Comisaría PNP Pueblo Nuevo; su festividad de la Virgen del Carmen tiene su día central el 16 de julio; la iglesia matriz está a cargo del sacerdote Walter Avalos Saravia, encargado por el obispado de Ica.",
-    image:
-      "https://images.pexels.com/photos/356230/pexels-photo-356230.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: iglesiaCarmen1,
     type: "Cultural",
     bestTime: "Fines de semana",
     difficulty: "Fácil",
   },
   {
     id: 3,
-    name: "Museo de Sitio Taky",
+    name: "Sala Arqueológica Municipal (Taky)",
     description: "Corazón social del distrito",
     details:
       "Por el CLIII aniversario de creación política del histórico distrito de Pueblo Nuevo, Ica, se inauguró la Sala de Exposición de la Cultura, encabezada por el alcalde Hebert Gonzáles Arcos; allí se conservan restos de las culturas Nasca e Ica, como cerámicas y textilerías.",
-    image:
-      "https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: museoSitio,
     type: "Espacio Público",
     bestTime: "Cualquier hora",
     difficulty: "Fácil",
   },
   {
     id: 4,
-    name: "Sitio Arqueologico de Tacaraca",
+    name: "Centro Arqueológico de Tacaraca",
     description: "Auténtica experiencia comercial",
     details: `A 5 km aproximadamente se encuentra
 ubicado a la ciudad de Ica y a 500 metros
@@ -63,14 +77,43 @@ fue la capital del Asentamiento del Señorío
 Ica, cuyas evidencias son las innumerables
 Huacas que se encuentran en sus
 alrededores.`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: museaTacara,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
   {
     id: 5,
+    name: "Sitio arqueológico de soniche -Huacachina seca",
+    description: "Auténtica experiencia comercial",
+    details: `Es un recinto arqueológico y un lugar donde
+se puede explorar con toda la familia y es un
+lugar tranquilo para despejarse. Hoy en día
+el sitio arqueológico está en excavación
+donde se encontraron restos de cerámica y
+textileria perteneciente a la cultura ica`,
+    image: huacachinaSeca,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+    {
+    id: 9,
+    name: "La Iglesia Callejon de los Espinos",
+    description: "Auténtica experiencia comercial",
+    details: `En el aspecto religioso en esta iglesia
+veneran al patrón de san Antonio de padua
+donde los pobladores del lugar cuentan que
+algunos matrimonios se han consolidado en
+el caserío gracias al patrón de san Antonio
+de Padua.`,
+    image: iglesiaEspinos,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 8,
     name: "Cruz de Tacaraca",
     description: "Auténtica experiencia comercial",
     details: `
@@ -84,83 +127,37 @@ fervor. La cruz es considerada un símbolo de
 fe y comunidad, y su veneración mantiene
 vivas las tradiciones religiosas del distrito.
       `,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: cruzTacaraca,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
   {
-    id: 4,
+    id: 20,
     name: "Cruz de Chulpaca",
     description: "Auténtica experiencia comercial",
     details:
       "La Cruz Misionera de Chulpaca es una de las tres cruces más altas del país, símbolo de profunda fe católica en el Distrito de Pueblo Nuevo, Ica.",
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: cruzChulpaca,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
-  {
-    id: 7,
-    name: "Cruz de Huacachina Seca",
+    {
+    id: 16,
+    name: `Cruz de la
+Chibillona`,
     description: "Auténtica experiencia comercial",
-    details: `La Cruz de Huacachina seca es un símbolo
-religioso ubicado el caserío de Huacachina
-seca donde los pobladores le rinden
-homenaje cada mes de mayo y es venerado
-por los pobladores del lugar.
-      `,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 8,
-    name: "Sitio Arqueológico Huacachina Seca",
-    description: "Auténtica experiencia comercial",
-    details: `Es un recinto arqueológico y un lugar donde
-se puede explorar con toda la familia y es un
-lugar tranquilo para despejarse. Hoy en día
-el sitio arqueológico está en excavación
-donde se encontraron restos de cerámica y
-textileria perteneciente a la cultura ica`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 9,
-    name: "La Iglesia Callejon de los Espinos",
-    description: "Auténtica experiencia comercial",
-    details: `En el aspecto religioso en esta iglesia
-veneran al patrón de san Antonio de padua
-donde los pobladores del lugar cuentan que
-algunos matrimonios se han consolidado en
-el caserío gracias al patrón de san Antonio
-de Padua.`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
-    type: "Comercio",
-    bestTime: "Mañana",
-    difficulty: "Fácil",
-  },
-  {
-    id: 10,
-    name: "Casona Colonial de Callejon de los Espinos",
-    description: "Auténtica experiencia comercial",
-    details: `Se puede apreciar una antigua casona de
-tipo colonial su infraestructura original
-patrimonio arqueológico y cultural
-considerado por parte de los habitantes del
-caserío.`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    details: `Este santísimo madero antiguamente
+los que provenían de las partes altas
+de Ica enterraban a sus muertos en
+ese lugar, cuando construyeron esta
+cruz al remover la arena se
+encontraron restos principalmente de
+niños enterrados. Hoy en día la familia
+Altamirano muy cerca de su predio
+cuida este madero.`,
+    image: cruzChibillona,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
@@ -174,14 +171,134 @@ antigua vivienda perteneciente a la familia
 navarro desde el año de 1981 se venera esa
 cruz, se venera esta cruz hasta la
 actualidad.`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: casonaEspinos,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
   },
   {
-    id: 8,
+    id: 13,
+    name: "Cruz de Yajasi",
+    description: "Auténtica experiencia comercial",
+    details: `Es un símbolo religioso significativo ubicado
+en el caserio de yajasi donde cada año, en
+los meses de mayo los fieles de la
+comunidad celebran misas y rituales en su
+honor, lo que fortalece la unión y la tradición
+religiosa entre los devotos locales`,
+    image: cruzYajasi,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+{
+    id: 7,
+    name: "Cruz de Huacachina Seca",
+    description: "Auténtica experiencia comercial",
+    details: `La Cruz de Huacachina seca es un símbolo
+religioso ubicado el caserío de Huacachina
+seca donde los pobladores le rinden
+homenaje cada mes de mayo y es venerado
+por los pobladores del lugar.
+      `,
+    image: cruzHuacachina,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 14,
+    name: `Santísimo Madero de la
+Juliana de pongo
+Grande`,
+    description: "Auténtica experiencia comercial",
+    details: `El santísimo madero de la juliana de pongo
+grande tiene como principal atractivo
+religioso la cruz de la juliana de pongo
+grande según testimonios este madero fue
+instalado en el siglo 18 por los misioneros
+provenientes de Europa en el lugar
+denominado pampa de los castillos
+posteriormente por los años de 1945 el
+predio de la pampa de los castillos fue
+vendido a una firma Americana Anderson
+Cleyton la cual inicia una serie de trabajos
+con maquina pesada llegando al extremo
+arrojar al camino real la denominada cruz
+de la juliana su fiesta patronal se realiza
+todos los años en el mes de mayo.`,
+    image: santisimoJuliana,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 17,
+    name: `Cruz de los
+Uchuya`,
+    description: "Auténtica experiencia comercial",
+    details: `La cruz de los Uchuya se colocó
+por parte de la municipalidad
+distrital de pueblo nuevo siendo
+como alcalde en ese entonces el
+exalcalde de la municipalidad
+distrital de pueblo nuevo Fredy
+Condori flores un 20 de mayo del
+2001 donde este madero se
+caracteriza por tener dos cruces
+uno grande y uno pequeño, en su
+día central de celebración del
+caserío se realiza la danza de los
+pastorcillos (atajo de negritos).`,
+    image: cruzUchuya,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 18,
+    name: `Cruz de Conuca`,
+    description: "Auténtica experiencia comercial",
+    details: `La veneración de la Santísima Cruz
+de Conuca comenzó en 1930,
+organizada por devotos de la
+comunidad tras un terremoto que
+formó el morro alto donde se
+establecieron los primeros
+habitantes. La cruz se venera en el
+atrio, construido de material noble,
+con bancos y un espacio para misa.
+La última mayordomía se celebró
+en 2010, continuando una tradición
+que ha perdurado con el apoyo de
+los residentes del distrito de Pueblo
+Nuevo.`,
+    image: cruzConuca,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 19,
+    name: `Cruz de Pariña
+Grande`,
+    description: "Auténtica experiencia comercial",
+    details: `La cruz de pariña grande es un
+simbolo religioso ubicado en el
+caserio de pariña grande
+donde los pobladores le rinden
+homenaje en el mes de mayo
+igual como las demás
+maderos hay cada
+mayordomo por familia asume
+el cargo.`,
+    image: cruzParinaGrande,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 12,
     name: "Iglesia Colonial de la Virgen del Carmen de Yajasi",
     description: "Auténtica experiencia comercial",
     details: `La iglesia colonial de yajasi esta iglesia se
@@ -190,8 +307,24 @@ carmen de yajasi cuya festividad se realiza
 desde el 04 de setiembre primer dia de
 festividad hasta el 22 de setiembre dia
 central.`,
-    image:
-      "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1",
+    image: iglesiaYajasi,
+    type: "Comercio",
+    bestTime: "Mañana",
+    difficulty: "Fácil",
+  },
+  {
+    id: 15,
+    name: `La Achirana del
+Inca`,
+    description: "Auténtica experiencia comercial",
+    details: `Es un canal de regadío Incaico, que las
+versiones legendarias le asignan 600 años
+de antigüedad.
+Según la leyenda, el Inca Pachacútec
+ordenó su construcción como prueba del
+amor que despertó en él una joven de la
+localidad.`,
+    image: achiranaInca,
     type: "Comercio",
     bestTime: "Mañana",
     difficulty: "Fácil",
@@ -216,7 +349,7 @@ export default function AttractionDetails() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4">
         {attractions.map((attraction) => (
           <div
             key={attraction.id}
@@ -230,17 +363,17 @@ export default function AttractionDetails() {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
 
-              <div className="absolute top-4 right-4 bg-orange-500/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-xs font-semibold">
+              {/* <div className="absolute top-4 right-4 bg-orange-500/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-xs font-semibold">
                 {attraction.type}
-              </div>
+              </div> */}
 
               <div className="absolute bottom-4 left-4 right-4">
                 <h3 className="text-white font-bold text-2xl leading-tight mb-2 group-hover:text-orange-300 transition-colors">
                   {attraction.name}
                 </h3>
-                <p className="text-gray-200 text-sm mb-4 line-clamp-2">
+                {/* <p className="text-gray-200 text-sm mb-4 line-clamp-2">
                   {attraction.description}
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -249,7 +382,7 @@ export default function AttractionDetails() {
                 {attraction.details}
               </p>
 
-              <div className="grid grid-cols-3 gap-4 mb-6">
+              {/* <div className="grid grid-cols-3 gap-4 mb-6">
                 <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-xl p-4 group-hover:from-teal-100 group-hover:to-teal-200 transition-all duration-300">
                   <Clock className="w-5 h-5 text-teal-600 mb-2" />
                   <p className="text-xs text-teal-600 font-semibold block text-uppercase">
@@ -279,25 +412,14 @@ export default function AttractionDetails() {
                     Pueblo Nuevo
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-              <button className="w-full bg-gradient-to-r from-teal-600 to-teal-500 hover:from-teal-700 hover:to-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95">
+              {/* <button className="w-full bg-gradient-to-r from-teal-600 to-teal-500 hover:from-teal-700 hover:to-teal-600 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95">
                 Explorar Ahora
-              </button>
+              </button> */}
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="mt-16 bg-gradient-to-r from-teal-600 to-teal-500 rounded-3xl p-12 text-white text-center">
-        <h3 className="text-4xl font-bold mb-4">Descubre más lugares</h3>
-        <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-          Hay mucho más que explorar en Pueblo Nuevo. Cada rincón tiene una
-          historia que contar.
-        </p>
-        <button className="bg-white text-teal-600 font-bold py-3 px-8 rounded-xl hover:bg-gray-100 transition-colors duration-300">
-          Ver Mapa Interactivo
-        </button>
       </div>
     </section>
   );

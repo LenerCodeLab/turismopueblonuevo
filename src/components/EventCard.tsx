@@ -190,7 +190,8 @@ export default function EventCard({ event }: EventCardProps) {
     >
       <img
         src={
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE61cJz8xnLWbDFkx0QkhW3Gk7Fxhb08RuLw&s"
+          event?.image ??
+          "https://via.placeholder.com/400x300?text=Imagen+no+disponible"
         }
         alt={event.title}
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -213,16 +214,18 @@ export default function EventCard({ event }: EventCardProps) {
         </div>
 
         <div className="space-y-3">
-          <h3 className="text-white font-bold text-xl leading-tight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-gray-300 transition-all">
-            {event.title}
-          </h3>
-          <p className="text-gray-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 line-clamp-2">
-            {event.description}
-          </p>
-          <div className="flex items-center gap-2 text-white text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+    <h3 className="text-white font-bold text-xl leading-tight group-hover:-translate-y-2 group-hover:opacity-100 transition-transform duration-300">
+    {event.title}
+  </h3>
+  {event.descripcion && (
+    <p className="text-gray-200 text-[12px] opacity-100 group-hover:opacity-100 group-hover:translate-y-2 transition-transform duration-300">
+      {event.descripcion}
+    </p>
+  )}
+          {/* <div className="flex items-center gap-2 text-white text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
             <span>Más información</span>
             <ChevronRight className="w-4 h-4" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

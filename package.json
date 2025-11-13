@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -13,9 +13,12 @@
     "@tailwindcss/vite": "^4.1.16",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.552.0",
+    "pdfjs-dist": "^5.4.394",
     "react": "^19.0.0-rc.1",
     "react-dom": "^19.0.0-rc.1",
-    "react-leaflet": "^5.0.0-rc.2"
+    "react-leaflet": "^5.0.0-rc.2",
+    "react-pdf": "^10.2.0",
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
